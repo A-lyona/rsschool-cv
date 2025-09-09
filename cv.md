@@ -46,8 +46,21 @@ return result;
 }
 }
 ```
+## Projects
 
+[cssMemSlider](https://a-lyona.github.io/A-lyona/cssMemSlider/index.html)
 
+[custom-video](https://a-lyona.github.io/A-lyona/custom-video/index.html)
+
+[tic-tac-toe](https://a-lyona.github.io/A-lyona/tic-tac-toe/index.html)
+
+[quiz](https://a-lyona.github.io/A-lyona/quiz/index.html)
+
+## Languages
+
+* Russian — native
+* Ukrainian - native
+* English — A1 — Basic
 
 
 
