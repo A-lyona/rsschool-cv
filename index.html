@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/0.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="cv_wrapper">
+      <main class="main">
+        <div class="left_column">
+          <figure>
+            <img src="assets/1.jpg" alt="photo" class="photo">
+          </figure>
+          <section class="contact_wrapper section">
+            <h3 class="heading_title">Contact details</h3>
+            <ul class="contacts_list_wrapper">
+              <li class="contacts_list_link"><b>E-mail:</b>
+                <a href="mailto:samedy666@gmail.com"><b>samedy666@gmail.com</b></a>
+              </li>
+              <li class="contacts_list_link"><b>Tel:</b>
+                <a href="tel:+37529*******"><b>+375 (29) ***-**-**</b></a>
+              </li>
+              <li class="contacts_list_link"><b>GitHub:</b>
+                <a href="https://github.com/A-lyona"><b>A-lyona</b></a>
+              </li>
+            </ul>
+          </section>
+          <section class="about_me_wrapper section">
+            <h3 class="heading_title">About me</h3>
+            <div class="information">
+              <p>	&#128579; I am distinguished by such qualities as optimism, the ability to work in a team, the willingness to take on new projects,
+                  the desire for new knowledge, the ability to bring things to the end. </p>
+              <p>	&#128579; My goal is to gain more confident skills and knowledge that will help me realize my dream - to become a confident developer.</p>
+              <p>	&#128579; I like to write code.</p>
+            </div>
+          </section>
+          <section class="summary section">
+            <h3 class="heading_title">Skills</h3>
+            <ul class="skills_list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Markdown</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Figma</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </section>
+          <section class="languages section">
+            <h3 class="heading_title">Languages</h3>
+            <ul class="languages_list">
+              <li><b>	&#128312; Russian (native)</b></li>
+              <li><b>&#128312; Ukrainian (native)</b></li>
+              <li><b>&#128312; English — A1 — Basic</b></li>
+            </ul>
+          </section>
+        </div>
+        <div class="right_column">
+          <section class="presentation section_right">
+            <h1 class="name">Alena Labuko</h1>
+            <h2 class="prof">Front-end developer</h2>
+            <hr class="line">
+          </section>
+          <section class="projects section_right">
+            <h3 class="heading_title">Projects</h3>
+            <div class="projects_list_wrapper">
+              <ul class="projects_list flex">
+                <li><a href="https://a-lyona.github.io/A-lyona/cssMemSlider/index.html"><b>&#129325; cssMemSlider</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/custom-video/index.html"><b>	&#127916; custom-video</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/gem-puzzle/index.html"><b>	&#129513; gem-puzzle</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/image-galery/index.html"><b>	&#127912; image-galery</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/online-zoo/pages/main/index.html"><b>	&#129437; online-zoo</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/quiz/index.html"><b>&#127917; quiz</b></a></li>
+              </ul>
+              <ul class="projects_list">
+                <li><a href="https://a-lyona.github.io/A-lyona/tic-tac-toe/index.html"><b>&#127922; tic-tac-toe</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/virtual-keyboard/index.html"><b>	&#128187; virtual-keyboard</b></a></li>
+                <li><a href="https://a-lyona.github.io/A-lyona/virtual-piano/index.html"><b>&#127929; virtual-piano</b></a></li>
+                <li><a href="https://codepen.io/a-lyona/pen/dyjZKbE"><b>	&#128142; AIM Game</b></a></li>
+                <li><a href="https://codepen.io/a-lyona/pen/eYjEvbQ"><b>&#127924; galery-slider</b></a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="code_examples section_right">
+            <h3 class="heading_title">Code examples</h3>
+            <div class="code_wrapper">
+              <pre style="color: #000000; background-color: #f0f0f0;">
+                <code style="color: #05070B;">
+          function nouveau(Constructor, ...arg) {
+            let obj = Object.create(Constructor.prototype);
+            let result = Constructor.apply(obj, [...arg]);
 
+            if ( typeof result == 'undefined') {
+              return obj;
+            } else if (typeof result == 'string') {
+              return obj;
+          } else if (typeof result == 'boolean') {
+              return obj;
+          } else if (result == null) {
+              return obj;
+          } else {
+              return result;
+          }
+          }
+                </code>
+              </pre>
+            </div>
+          </section>
+          <section class="education section_right">
+            <h3 class="heading_title">Education and training courses</h3>
+            <ul class="education_list_wrapper">
+              <li><b>&#9997; Interactive online courses at HTML Academy on advanced web development technologies.</b></li>
+              <li><b>&#9997; I am constantly improving my skills by solving tasks on codewars.</b></li>
+              <li><b>&#9997; Passed training on the online platform for learning Hexlet programming for the profession of a front-end developer.</b></li>
+              <li><b>&#9997; Several English courses from Englishdom online school.</b></li>
+              <li><b>&#9997; Marathon successfully passed: 5 days - 5 JavaScript projects from Vladilen Minin's IT school.</b></li>
+              <li><b>&#9997; Completed the free JavaScript/Front-end course from The Rolling Scopes community.</b></li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="rss">
+          <a href="https://rs.school/courses/javascript-ru" class="footer-link rsschool-logo" aria-label="rss" target="_blank"><img src="assets/rs_school_js.svg" alt="logo" class="logo"></a>
+        </div>
+        <div class="year">
+          <time datetime="2025-09-10 10:30">2025</time>
+        </div>
+        <div class="github">
+          <a href="https://github.com/A-lyona" class="footer-link github-logo" aria-label="github" target="_blank"><img src="assets/github.svg" alt="logo" class="logo"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
