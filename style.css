@@ -166,6 +166,15 @@ mark {
   border-radius: 10px;
 }
 
+.pre {
+  color: #000000;
+  background-color: #f0f0f0";
+}
+
+.code {
+  color: #05070B";
+}
+
 .education_list_wrapper > li,
 .languages_list > li {
   line-height: 1.8;
