@@ -1,1 +1,2 @@
-# [rsschool-cv](https://A-lyona.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://a-lyona.github.io/rsschool-cv/)
+
